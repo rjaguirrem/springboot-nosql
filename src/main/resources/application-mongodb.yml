@@ -1,0 +1,10 @@
+# MongoDB
+server:
+  port: 9000
+spring:
+  profiles: mongodb
+  data:
+    mongodb:
+      database: db
+      host: localhost
+      port: 27017
